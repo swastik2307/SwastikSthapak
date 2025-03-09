@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="portfoliowithform-container">
+        <div class="portfoliowithform-portfoliowithform">
+          <div class="portfoliowithform-image1">
+            <img
+              alt="yellowbg7194"
+              src="public/external/yellowbg7194-tjb.svg"
+              class="portfoliowithform-yellowbg"
+            />
+            <div class="portfoliowithform-image2">
+              <img
+                alt="pexelsartembeliaikin1832323removebgpreview7197"
+                src="public/external/pexelsartembeliaikin1832323removebgpreview7197-wmnl-700h.png"
+                class="portfoliowithform-pexelsartembeliaikin1832323removebgpreview"
+              />
+            </div>
+          </div>
+          <div class="portfoliowithform-header">
+            <span class="portfoliowithform-text10">Swastik Sthapak</span>
+            <div class="portfoliowithform-nav">
+              <div class="portfoliowithform-tabdefault1">
+                <a
+                  href="about-simple-footer.html"
+                  class="portfoliowithform-text11 body18px"
+                >
+                  About
+                </a>
+              </div>
+              <div class="portfoliowithform-tabdefault2">
+                <a href="#project" class="portfoliowithform-text12 body18px">
+                  Projects
+                </a>
+              </div>
+              <div class="portfoliowithform-tabdefault3">
+                <a
+                  href="tel:+918305649314"
+                  class="portfoliowithform-text13 body18px"
+                >
+                  Contacts
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="project" class="portfoliowithform-projects">
+            <div class="portfoliowithform-sectiontitle1">
+              <span class="portfoliowithform-text14 titleh2">Projects</span>
+              <img
+                alt="Rectangle197202"
+                src="public/external/rectangle197202-suha-200h.png"
+                class="portfoliowithform-rectangle191"
+              />
+            </div>
+            <div class="portfoliowithform-project1">
+              <div class="portfoliowithform-projectnfo1">
+                <div class="portfoliowithform-frame33501">
+                  <span class="portfoliowithform-text15">Yoga App</span>
+                  <span class="portfoliowithform-text16">
+                    Experience the perfect blend of design and wellness with our
+                    Yoga app! Designed with a seamless UI/UX, our platform makes
+                    it easy to explore and purchase yoga courses tailored to
+                    your needs. Start your journey to mindfulness today!
+                  </span>
+                  <a
+                    href="https://www.behance.net/swastiksthapakX"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="portfoliowithform-link1"
+                  >
+                    <div class="portfoliowithform-botosecudrio1">
+                      <span class="portfoliowithform-text17">View Project</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <img
+                alt="pexelsellyfairytale382320717205"
+                src="public/external/pexelsellyfairytale382320717205-lpw8-600h.png"
+                class="portfoliowithform-pexelsellyfairytale38232071"
+              />
+            </div>
+            <div class="portfoliowithform-project2">
+              <img
+                alt="Rectangle77207"
+                src="public/external/rectangle77207-4hw-600h.png"
+                class="portfoliowithform-rectangle7"
+              />
+              <div class="portfoliowithform-projectnfo2">
+                <div class="portfoliowithform-frame33502">
+                  <span class="portfoliowithform-text18">Agricultural App</span>
+                  <span class="portfoliowithform-text19">
+                    "Empowering farmers with a seamless trading experience! Our
+                    agriculture app lets you buy and sell stock effortlessly
+                    while keeping track of receipts and farmer history. Simplify
+                    your transactions and grow your business with ease!"
+                  </span>
+                  <a
+                    href="https://www.behance.net/swastiksthapakX"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="portfoliowithform-link2"
+                  >
+                    <div class="portfoliowithform-botosecudrio2">
+                      <span class="portfoliowithform-text20">View Project</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfoliowithform-intro">
+            <span class="portfoliowithform-text21">UI/UX Designer</span>
+            <div class="portfoliowithform-content">
+              <span class="portfoliowithform-text22 titleh1">
+                Hello, my name is Swastik Sthapak
+              </span>
+              <div class="portfoliowithform-subheadline">
+                <span class="portfoliowithform-text23">
+                  UI/UX designer, product enthusiast.With a passion for creating
+                  intuitive digital experiences, I blend design, strategy, and
+                  innovation to craft user-centric solutions. Explore my work
+                  and journey here
+                </span>
+              </div>
+              <button class="portfoliowithform-buttons"></button>
+              <button class="portfoliowithform-buttonprimary1">
+                <span class="portfoliowithform-text24">Resume</span>
+              </button>
+              <a
+                href="https://www.linkedin.com/in/swastik-sthapak-010aaa341/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="portfoliowithform-buttonsecondary"
+              >
+                <span class="portfoliowithform-text25">LinkedIn</span>
+              </a>
+            </div>
+          </div>
+          <div class="portfoliowithform-footerform">
+            <img
+              alt="Vector7273"
+              src="public/external/vector7273-feqb.svg"
+              class="portfoliowithform-vector1"
+            />
+            <div class="portfoliowithform-frame3352">
+              <div class="portfoliowithform-form">
+                <div class="portfoliowithform-formgroupinput1">
+                  <div class="portfoliowithform-label1">
+                    <span class="portfoliowithform-text26">Name</span>
+                  </div>
+                  <input
+                    type="text"
+                    placeholder=""
+                    class="portfoliowithform-input1"
+                  />
+                </div>
+                <div class="portfoliowithform-formgroupinput2">
+                  <div class="portfoliowithform-label2">
+                    <span class="portfoliowithform-text27">Email</span>
+                  </div>
+                  <input
+                    type="text"
+                    placeholder=""
+                    class="portfoliowithform-input2"
+                  />
+                </div>
+                <div class="portfoliowithform-formgrouptextarea">
+                  <div class="portfoliowithform-label3">
+                    <span class="portfoliowithform-text28">Message</span>
+                  </div>
+                  <div class="portfoliowithform-textarea"></div>
+                </div>
+                <button class="portfoliowithform-buttonprimary2">
+                  <span class="portfoliowithform-text29">Send</span>
+                </button>
+              </div>
+              <div class="portfoliowithform-footericons">
+                <div class="portfoliowithform-icons">
+                  <a
+                    href="https://www.instagram.com/swastik_sthapak?igsh=NWYyM29tNzFiOGFi"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="portfoliowithform-link3"
+                  >
+                    <img
+                      alt="phinstagramlogofillI103"
+                      src="public/external/phinstagramlogofilli103-0ggw.svg"
+                      class="portfoliowithform-phinstagramlogofill"
+                    />
+                  </a>
+                  <div class="portfoliowithform-bilinkedin">
+                    <div class="portfoliowithform-group1">
+                      <a
+                        href="https://www.linkedin.com/in/swastik-sthapak-010aaa341/"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="portfoliowithform-link4"
+                      >
+                        <img
+                          alt="VectorI103"
+                          src="public/external/vectori103-s91m.svg"
+                          class="portfoliowithform-vector2"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="portfoliowithform-bienvelopefill">
+                    <div class="portfoliowithform-group2">
+                      <a
+                        href="mailto:swastiksthapak@gmail.com?subject="
+                        class="portfoliowithform-link5"
+                      >
+                        <img
+                          alt="VectorI103"
+                          src="public/external/vectori103-j8u.svg"
+                          class="portfoliowithform-vector3"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <span class="portfoliowithform-text30">Swastik 2025</span>
+              </div>
+            </div>
+            <div class="portfoliowithform-sectiontitle2">
+              <span class="portfoliowithform-text31 titleh2">Enquiry</span>
+              <img
+                alt="Rectangle19I101"
+                src="public/external/rectangle19i101-cr37-200h.png"
+                class="portfoliowithform-rectangle192"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

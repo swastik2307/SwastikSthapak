@@ -1,0 +1,798 @@
+.portfoliowithform-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.portfoliowithform-portfoliowithform {
+  width: 100%;
+  height: 3285px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-bg-gray);
+}
+ 
+.portfoliowithform-image1 {
+  top: 0px;
+  left: 720px;
+  width: 720px;
+  height: 629px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.portfoliowithform-yellowbg {
+  top: -248px;
+  left: 0px;
+  width: 777px;
+  height: 877px;
+  position: absolute;
+}
+ 
+.portfoliowithform-image2 {
+  top: -248px;
+  left: 0px;
+  width: 777px;
+  height: 877px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.portfoliowithform-pexelsartembeliaikin1832323removebgpreview {
+  top: 248px;
+  left: -1.4210854715202004e-14px;
+  width: 720px;
+  height: 629px;
+  position: absolute;
+}
+ 
+.portfoliowithform-header {
+  gap: 760px;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 12px 120px;
+  padding-right: 12px 120px;
+  padding-bottom: 12px 120px;
+}
+ 
+.portfoliowithform-text10 {
+  top: 12px;
+  left: 120px;
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Comfortaa;
+  font-weight: 700;
+  line-height: 179.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-nav {
+  gap: 48px;
+  top: 14px;
+  left: 1028px;
+  width: 292px;
+  display: flex;
+  position: absolute;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+ 
+.portfoliowithform-tabdefault1 {
+  gap: 2px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.portfoliowithform-text11 {
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  text-align: left;
+  line-height: 28px;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-tabdefault2 {
+  gap: 2px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.portfoliowithform-text12 {
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  text-align: left;
+  line-height: 28px;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-tabdefault3 {
+  gap: 2px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.portfoliowithform-text13 {
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  text-align: left;
+  line-height: 28px;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-projects {
+  gap: 82px;
+  top: 789px;
+  left: 205px;
+  width: 992px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.portfoliowithform-sectiontitle1 {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.portfoliowithform-text14 {
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  text-align: center;
+  line-height: 72px;
+}
+ 
+.portfoliowithform-rectangle191 {
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+}
+ 
+.portfoliowithform-project1 {
+  width: 992px;
+  height: 524px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 6px 64px 0px rgba(112, 144, 176, 0.10000000149011612) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 24px;
+}
+ 
+.portfoliowithform-projectnfo1 {
+  width: 496px;
+  height: 524px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-bg-white);
+}
+ 
+.portfoliowithform-frame33501 {
+  gap: 24px;
+  top: 106px;
+  left: 50.4406852722168px;
+  width: 407px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.portfoliowithform-text15 {
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Playfair Display;
+  font-weight: 700;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-text16 {
+  color: var(--dl-color-font-mediumemphasis);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-link1 {
+  display: contents;
+}
+ 
+.portfoliowithform-botosecudrio1 {
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-start;
+  border-color: rgba(37, 40, 43, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 24px;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-text17 {
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-pexelsellyfairytale38232071 {
+  width: 496px;
+  height: 526px;
+}
+ 
+.portfoliowithform-project2 {
+  height: 524px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 6px 64px 0px rgba(112, 144, 176, 0.10000000149011612) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 24px;
+}
+ 
+.portfoliowithform-rectangle7 {
+  width: 496px;
+  height: 524px;
+}
+ 
+.portfoliowithform-projectnfo2 {
+  width: 496px;
+  height: 524px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-bg-white);
+}
+ 
+.portfoliowithform-frame33502 {
+  gap: 24px;
+  top: 119.5px;
+  left: 50.4406852722168px;
+  width: 407px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.portfoliowithform-text18 {
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  font-size: 40px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: Playfair Display;
+  font-weight: 700;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-text19 {
+  color: var(--dl-color-font-mediumemphasis);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-link2 {
+  display: contents;
+}
+ 
+.portfoliowithform-botosecudrio2 {
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-start;
+  border-color: rgba(37, 40, 43, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 24px;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-text20 {
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-intro {
+  gap: 12px;
+  top: 190px;
+  left: 120px;
+  width: 486px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.portfoliowithform-text21 {
+  color: var(--dl-color-brand-yellow);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Nunito";
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-content {
+  gap: 32px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.portfoliowithform-text22 {
+  color: var(--dl-color-default-gray1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 120.00000476837158%;
+}
+ 
+.portfoliowithform-subheadline {
+  gap: 12px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.portfoliowithform-text23 {
+  color: var(--dl-color-default-gray3);
+  width: 486px;
+  height: auto;
+  text-align: left;
+  line-height: 36px;
+}
+ 
+.portfoliowithform-buttons {
+  gap: 12px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.portfoliowithform-buttonprimary1 {
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-start;
+  border-radius: 8px;
+  background-color: var(--dl-color-brand-yellow);
+}
+ 
+.portfoliowithform-text24 {
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-buttonsecondary {
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-start;
+  border-color: rgba(37, 40, 43, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-text25 {
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-footerform {
+  top: 2203px;
+  left: 0px;
+  width: 1440px;
+  height: 1046px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.portfoliowithform-vector1 {
+  top: 731.3665161132812px;
+  left: -19px;
+  width: 1440px;
+  height: 358px;
+  position: absolute;
+}
+ 
+.portfoliowithform-frame3352 {
+  gap: 56px;
+  top: 160.5px;
+  left: 520px;
+  width: 400px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.portfoliowithform-form {
+  gap: 24px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.portfoliowithform-formgroupinput1 {
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.portfoliowithform-label1 {
+  width: 44px;
+  height: 22px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.portfoliowithform-text26 {
+  color: var(--dl-color-font-high);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-input1 {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(231, 235, 244, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: var(--dl-color-bg-white);
+}
+ 
+.portfoliowithform-formgroupinput2 {
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.portfoliowithform-label2 {
+  width: 44px;
+  height: 22px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.portfoliowithform-text27 {
+  color: var(--dl-color-font-high);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-input2 {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(231, 235, 244, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: var(--dl-color-bg-white);
+}
+ 
+.portfoliowithform-formgrouptextarea {
+  gap: 8px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.portfoliowithform-label3 {
+  width: 44px;
+  height: 22px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.portfoliowithform-text28 {
+  color: var(--dl-color-font-high);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-textarea {
+  width: 400px;
+  height: 160px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(231, 235, 244, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: var(--dl-color-bg-white);
+}
+ 
+.portfoliowithform-buttonprimary2 {
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-start;
+  border-radius: 8px;
+  background-color: var(--dl-color-brand-yellow);
+}
+ 
+.portfoliowithform-text29 {
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  font-size: 18px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 150%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-footericons {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.portfoliowithform-icons {
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.portfoliowithform-link3 {
+  display: contents;
+}
+ 
+.portfoliowithform-phinstagramlogofill {
+  width: 48px;
+  height: 48px;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-bilinkedin {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.portfoliowithform-group1 {
+  top: 5px;
+  left: 5px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.portfoliowithform-link4 {
+  display: contents;
+}
+ 
+.portfoliowithform-vector2 {
+  top: 0px;
+  left: 0px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-bienvelopefill {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.portfoliowithform-group2 {
+  top: 8.000003814697266px;
+  left: 3.0000009536743164px;
+  width: 42px;
+  height: 32px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.portfoliowithform-link5 {
+  display: contents;
+}
+ 
+.portfoliowithform-vector3 {
+  top: 0px;
+  left: 0px;
+  width: 42px;
+  height: 32px;
+  position: absolute;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-text30 {
+  color: var(--dl-color-font-mediumemphasis);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.portfoliowithform-sectiontitle2 {
+  gap: 4px;
+  top: 0px;
+  left: 618px;
+  width: 180px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.portfoliowithform-text31 {
+  color: var(--dl-color-font-highemphasis);
+  height: auto;
+  text-align: center;
+  line-height: 72px;
+}
+ 
+.portfoliowithform-rectangle192 {
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+}
